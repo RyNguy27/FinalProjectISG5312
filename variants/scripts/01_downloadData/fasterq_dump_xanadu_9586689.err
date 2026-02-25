@@ -1,0 +1,82 @@
+spots read      : 12,611,414
+reads read      : 25,222,828
+reads written   : 25,222,828
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074875_2.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074876_2.fastq.gz already exists;	not overwritten
+spots read      : 12,274,736
+reads read      : 24,549,472
+reads written   : 24,549,472
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074875_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074876_1.fastq.gz already exists;	not overwritten
+spots read      : 12,288,638
+reads read      : 24,577,276
+reads written   : 24,577,276
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074877_2.fastq.gz already exists;	not overwritten
+spots read      : 14,372,074
+reads read      : 28,744,148
+reads written   : 28,744,148
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074877_1.fastq.gz already exists;	not overwritten
+2026-02-25T19:13:25 fasterq-dump.3.0.1 err: inspector.c get_file_size( 'https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR20074879/SRR20074879', remotely = YES ) -> RC(rcNS,rcNoTarg,rcValidating,rcConnection,rcDestroyed)
+spots read      : 17,977,407
+reads read      : 35,954,814
+reads written   : 35,954,814
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074879_2.fastq.gz already exists;	not overwritten
+Failed to call external services.
+spots read      : 14,510,227
+reads read      : 29,020,454
+reads written   : 29,020,454
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074879_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074880_2.fastq.gz already exists;	not overwritten
+spots read      : 13,121,108
+reads read      : 26,242,216
+reads written   : 26,242,216
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074880_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074884_2.fastq.gz already exists;	not overwritten
+spots read      : 11,743,173
+reads read      : 23,486,346
+reads written   : 23,486,346
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074884_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074885_2.fastq.gz already exists;	not overwritten
+spots read      : 15,727,327
+reads read      : 31,454,654
+reads written   : 31,454,654
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074885_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074886_1.fastq.gz already exists;	not overwritten
+spots read      : 12,571,769
+reads read      : 25,143,538
+reads written   : 25,143,538
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074885_2.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074886_2.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074887_2.fastq.gz already exists;	not overwritten
+spots read      : 13,505,285
+reads read      : 27,010,570
+reads written   : 27,010,570
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074887_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074888_2.fastq.gz already exists;	not overwritten
+spots read      : 15,739,446
+reads read      : 31,478,892
+reads written   : 31,478,892
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074888_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074889_2.fastq.gz already exists;	not overwritten
+spots read      : 12,498,080
+reads read      : 24,996,160
+reads written   : 24,996,160
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074889_1.fastq.gz already exists;	not overwritten
+spots read      : 15,090,477
+reads read      : 30,180,954
+reads written   : 30,180,954
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074890_1.fastq: No such file or directory
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074890_2.fastq: No such file or directory
+spots read      : 15,444,470
+reads read      : 30,888,940
+reads written   : 30,888,940
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074882_2.fastq.gz already exists;	not overwritten
+spots read      : 15,368,885
+reads read      : 30,737,770
+reads written   : 30,737,770
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074882_1.fastq.gz already exists;	not overwritten
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074891_2.fastq.gz already exists;	not overwritten
+spots read      : 14,448,030
+reads read      : 28,896,060
+reads written   : 28,896,060
+gzip: /home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq/SRR20074891_1.fastq.gz already exists;	not overwritten
