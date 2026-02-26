@@ -82,7 +82,7 @@ FinalProjectISG5312/
 |  |-- 03_align/
 |  |-- 04_alignQC/
 |  |-- 05_variantCalling/
-|  `-- 06_annotation/
+   `-- 06_annotation/
 ```
 
 ## Software Versions
