@@ -50,8 +50,8 @@ Total number of samples: 18
 ## Repository Structure
 ```
 FinalProjectISG5312/
-+ README.md
-+ variants/
+| README.md
+| variants/
 |-- data/
 |-- metadata/
 |-- genome/
