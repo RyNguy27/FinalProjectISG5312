@@ -16,49 +16,49 @@ Total number of samples: 18
 ## Workflow Outline
 
 ### Step 1: Data Download
--Download Raw FASTQ files from NCBI SRA and reference genome GRCh37  
+- Download Raw FASTQ files from NCBI SRA and reference genome GRCh37  
 
 ### Step 2: Raw Read QC
--FastQC with MultiQC on raw reads
--Trimmomatic for adapter and quality trimming
--FastQC with MultiQC on trimmed reads 
+- FastQC with MultiQC on raw reads
+- Trimmomatic for adapter and quality trimming
+- FastQC with MultiQC on trimmed reads 
 
 ### Step 3: Indexing & Alignment
--BWA-MEM index
--BWA-MEM alignment
+- BWA-MEM index
+- BWA-MEM alignment
 
 ### Step 4: Alignment QC
--Samtools Stats with MultiQC
--Coverage check QC
--Bedtoolsnuc QC
+- Samtools Stats with MultiQC
+- Coverage check QC
+- Bedtoolsnuc QC
 
 ### Step 5: Variant Calling
--Freebayes 
--bcftools
--Create VCF
- -GATK Mutect2 (tumor sample)
- -GATK Haplotypecaller (normal sample)
+- Freebayes 
+- bcftools
+- Create VCF
+ - GATK Mutect2 (tumor sample)
+ - GATK Haplotypecaller (normal sample)
 
 ### Step 6: Filtering & Annotating 
--Filter variants based on quality metrics
--Normalize Variants
--Annotate using:
- -dbNSFP and COSMIC 
- -bcftoolsCSQ
- -SnpEff for summary 
+- Filter variants based on quality metrics
+- Normalize Variants
+- Annotate using:
+ - dbNSFP and COSMIC 
+ - bcftoolsCSQ
+ - SnpEff for summary 
 
 ## Softwares Versions
-sratoolkit/3.0.1
-fastqc/0.11.7
-Trimmomatic/0.39
-samtools/1.16.1
-bedtools/2.29.0
-bamtools/2.5.1
-freebayes/1.3.4
-htslib/1.16
-bcftools/1.16
-picard/2.23.9
-GATK/4.0
-vcflib/1.0.0-rc1
-snpEff/4.3q
-anaconda3/2020.02
+- sratoolkit/3.0.1
+- fastqc/0.11.7
+- Trimmomatic/0.39
+- samtools/1.16.1
+- bedtools/2.29.0
+- bamtools/2.5.1
+- freebayes/1.3.4
+- htslib/1.16
+- bcftools/1.16
+- picard/2.23.9
+- GATK/4.0
+- vcflib/1.0.0-rc1
+- snpEff/4.3q
+- anaconda3/2020.02
