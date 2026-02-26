@@ -49,39 +49,39 @@ Total number of samples: 18
 
 ## Repository Structure
 FinalProjectISG5312/
-+ README.md
-+ variants/
- |-- data/
- |-- metadata/
- |-- genome/
- |-- results/
- |  |-- 02_qc/
- |  |  |-- fastqc_raw
- |  |  |-- trimmed_fastq/
- |  |  `-- fastqc_trimmed/
- |  |-- 03_align/
- |  |  |-- bwa_index/
- |  |  `-- bwa_align/
- |  |-- 04_alignQC/
- |  |  |-- samtools/
- |  |  |-- coverage/
- |  |  `-- bedtoolsnuc/
- |  |-- 05_variantCalling/
- |  |  |-- freebayes/
- |  |  |-- bcftools/
- |  |  |-- gatk/
- |  |  `-- isec_output/
- |  `-- 06_annotation/
- |     |-- bcftoolsCSQ/
- |     |-- dbNSFP/
- |     `-- snpEff/
- `-- scripts/
-    |-- 01_downloadData/
-    |-- 02_qc/
-    |-- 03_align/
-    |-- 04_alignQC/
-    |-- 05_variantCalling/
-    `-- 06_annotation/
+├── README.md
+├── variants/
+│   ├── data/
+│   ├── metadata/
+│   ├── genome/
+│   └── results/
+│       ├── 02_qc/
+│       │   ├── fastqc_raw/
+│       │   ├── trimmed_fastq/
+│       │   └── fastqc_trimmed/
+│       ├── 03_align/
+│       │   ├── bwa_index/
+│       │   └── bwa_align/
+│       ├── 04_alignQC/
+│       │   ├── samtools/
+│       │   ├── coverage/
+│       │   └── bedtoolsnuc/
+│       ├── 05_variantCalling/
+│       │   ├── freebayes/
+│       │   ├── bcftools/
+│       │   ├── gatk/
+│       │   └── isec_output/
+│       └── 06_annotation/
+│           ├── bcftoolsCSQ/
+│           ├── dbNSFP/
+│           └── snpEff/
+└── scripts/
+    ├── 01_downloadData/
+    ├── 02_qc/
+    ├── 03_align/
+    ├── 04_alignQC/
+    ├── 05_variantCalling/
+    └── 06_annotation/
 
 ## Software Versions
 - sratoolkit/3.0.1
