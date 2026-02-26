@@ -48,6 +48,7 @@ Total number of samples: 18
  - SnpEff for summary 
 
 ## Repository Structure
+```
 FinalProjectISG5312/
 + README.md
 + variants/
@@ -82,6 +83,7 @@ FinalProjectISG5312/
 |  |-- 04_alignQC/
 |  |-- 05_variantCalling/
 |  `-- 06_annotation/
+```
 
 ## Software Versions
 - sratoolkit/3.0.1
