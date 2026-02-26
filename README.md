@@ -7,10 +7,10 @@ This repository contains the scripts and results for the somatic variant calling
 Nurgalieva, A., Galliamova, L., Ekomasova, N., Yankina, M., Sakaeva, D., Valiev, R., Prokofyeva, D., Dzhaubermezov, M., Fedorova, Y., Khusnutdinov, S., & Khusnutdinova, E. (2023). Whole Exome Sequencing Study Suggests an Impact of FANCA, CDH1 and VEGFA Genes on Diffuse Gastric Cancer Development. Genes, 14(2), 280. https://doi.org/10.3390/genes14020280
 
 ## Data Description
-BioProject: PRJNA857496
-SRA Study: SRP385802
-Platform: Illumina Paired-end sequencing 
-Data size: Bytes: 32.97 Gb; Bases: 50.92 G
+BioProject: PRJNA857496<br>
+SRA Study: SRP385802<br>
+Platform: Illumina Paired-end sequencing<br> 
+Data size: Bytes: 32.97 Gb; Bases: 50.92 G<br>
 Total number of samples: 18 
 
 ## Workflow Outline
