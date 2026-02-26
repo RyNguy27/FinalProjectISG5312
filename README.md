@@ -47,7 +47,7 @@ Total number of samples: 18
  - bcftoolsCSQ
  - SnpEff for summary 
 
-## Softwares Versions
+## Software Versions
 - sratoolkit/3.0.1
 - fastqc/0.11.7
 - Trimmomatic/0.39
@@ -56,6 +56,7 @@ Total number of samples: 18
 - bamtools/2.5.1
 - freebayes/1.3.4
 - htslib/1.16
+- htslib/1.7
 - bcftools/1.16
 - picard/2.23.9
 - GATK/4.0
