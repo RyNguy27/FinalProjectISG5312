@@ -1,0 +1,51 @@
+#!/bin/bash
+#SBATCH --job-name=prefetch_fasterq_SRR20074883
+#SBATCH -n 1
+#SBATCH -N 1
+#SBATCH -c 4
+#SBATCH --mem=15G
+#SBATCH --partition=general
+#SBATCH --qos=general
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=ryan.j.nguyen@uconn.edu
+#SBATCH -o %x_%j.out
+#SBATCH -e %x_%j.err
+
+# Print job info
+hostname
+date
+
+# Stop Perl warnings
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+
+# Load SRA Toolkit
+module load sratoolkit/3.0.2
+
+# Output directory
+OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq
+mkdir -p "${OUTDIR}"
+
+# SRR accession to download
+SRR=SRR20074883
+
+# Only download if FASTQs do not already exist
+#!/bin/bash
+OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/fastq
+mkdir -p "${OUTDIR}"
+
+SRR=SRR20074883
+
+# Only download if FASTQs do not exist
+if [[ ! -f "${OUTDIR}/${SRR}_1.fastq.gz" || ! -f "${OUTDIR}/${SRR}_2.fastq.gz" ]]; then
+    echo "Downloading FASTQs for ${SRR} from ENA..."
+    
+    wget -O "${OUTDIR}/${SRR}_2.fastq.gz" ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR200/083/${SRR}/${SRR}_2.fastq.gz
+    
+    echo "Download complete."
+else
+    echo "${SRR} FASTQs already exist. Skipping."
+fi
+
+date
