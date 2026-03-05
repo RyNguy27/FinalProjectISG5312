@@ -68,8 +68,6 @@ FinalProjectISG5312/
 |  |  |-- coverage/
 |  |  `-- bedtoolsnuc/
 |  |-- 05_variantCalling/
-|  |  |-- freebayes/
-|  |  |-- bcftools/
 |  |  |-- gatk/
 |  |  `-- isec_output/
 |  `-- 06_annotation/
