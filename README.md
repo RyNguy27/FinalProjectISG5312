@@ -33,11 +33,9 @@ Total number of samples: 18
 - Bedtoolsnuc QC
 
 ### Step 5: Variant Calling
-- Freebayes 
-- bcftools
+- Create Sequence Directory
 - Create VCF
- - GATK Mutect2 (tumor sample)
- - GATK Haplotypecaller (normal sample)
+ - GATK Mutect2 (tumor-normal mode)
 
 ### Step 6: Filtering & Annotating 
 - Filter variants based on quality metrics
@@ -53,6 +51,8 @@ FinalProjectISG5312/
 | README.md
 | variants/
 |-- data/
+|  |--fastq
+|  |--resources
 |-- metadata/
 |-- genome/
 |-- results/
@@ -92,10 +92,8 @@ FinalProjectISG5312/
 - samtools/1.16.1
 - bedtools/2.29.0
 - bamtools/2.5.1
-- freebayes/1.3.4
 - htslib/1.16
 - htslib/1.7
-- bcftools/1.16
 - picard/2.23.9
 - GATK/4.0
 - vcflib/1.0.0-rc1
