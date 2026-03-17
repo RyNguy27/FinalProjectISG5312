@@ -3,7 +3,7 @@
 #SBATCH -n 1
 #SBATCH -N 1
 #SBATCH -c 5
-#SBATCH --mem=5G
+#SBATCH --mem=15G
 #SBATCH --qos=general
 #SBATCH --partition=general
 #SBATCH --mail-user=

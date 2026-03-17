@@ -25,7 +25,7 @@ OUTDIR=../../results/04_alignQC/bedtoolsnuc
 mkdir -p ${OUTDIR}
 
 GENOME=../../genome/hs37d5.fa
-WIN1KB=../../results/04_alignQC/coverage/GRCh38_1kb.bed
+WIN1KB=../../results/04_alignQC/coverage/GRCh37_1kb.bed
 
 # run bedtools 
 bedtools nuc -fi ${GENOME} -bed ${WIN1KB} | bgzip >${OUTDIR}/nuc.bed.gz

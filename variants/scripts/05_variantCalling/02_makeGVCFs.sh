@@ -39,13 +39,12 @@ TUMORS=(SRR20074876 SRR20074878 SRR20074880 SRR20074882 SRR20074884 SRR20074886 
 N=${NORMALS[$SLURM_ARRAY_TASK_ID]}
 T=${TUMORS[$SLURM_ARRAY_TASK_ID]}
 
-GNOMAD=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/data/resources/gnomad.exomes.r2.1.1.sites.vcf.bgz
+GNOMAD=/scratch/rnguyen/resources/annovar/humandb/gnomad.exomes.r2.1.1.sites.vcf.bgz
 
 # set a variable for the reference genome location
 GEN=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/genome/hs37d5.fa
 
 # sanity check
-echo "Sample: $SAMPLE"
 echo "Tumor BAM: $INDIR/$T.bam"
 echo "Normal BAM: $INDIR/$N.bam"
 echo "gnomAD: $GNOMAD"
@@ -71,9 +70,9 @@ gatk Mutect2 \
     --normal ${N} \
     --germline-resource ${GNOMAD} \
     --max-reads-per-alignment-start 0 \
-    --min-base-quality-score 1 \        # <<< CHANGED: lower from default 20
-    --tumor-lod 0.0 \                     # <<< CHANGED: lower threshold to call low AF variants
-    --max-reads-per-alignment-start 0 \
+    --min-base-quality-score 0 \
+    --tumor-lod-to-emit 0 \
+    --af-of-alleles-not-in-resource 0 \
     -O ${OUTDIR}/${T}.mutect2.raw.vcf.gz
 
 # ----------------------------
