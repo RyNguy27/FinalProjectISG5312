@@ -80,7 +80,8 @@ FinalProjectISG5312/
 |  |-- 03_align/
 |  |-- 04_alignQC/
 |  |-- 05_variantCalling/
-   `-- 06_annotation/
+|  |-- 06_annotation/
+   `-- 07_Rscripts/
 ```
 
 ## Software Versions
@@ -91,9 +92,10 @@ FinalProjectISG5312/
 - bedtools/2.29.0
 - bamtools/2.5.1
 - htslib/1.16
-- htslib/1.7
 - picard/2.23.9
 - GATK/4.0
 - vcflib/1.0.0-rc1
-- snpEff/4.3q
 - anaconda3/2020.02
+- miniconda3/3.9
+- perl/5.32.1
+- MultiQC/1.15
