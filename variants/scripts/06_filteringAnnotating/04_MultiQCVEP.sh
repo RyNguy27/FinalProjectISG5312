@@ -28,12 +28,12 @@ module load MultiQC/1.15
 # ------------------------------
 # VEP output directory (where all stats_file HTMLs are)
 # ------------------------------
-VEP_DIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/VEP
+VEP_DIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/VEP/test
 
 # ------------------------------
 # Output directory for combined MultiQC report
 # ------------------------------
-MULTIQC_OUT=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/MultiQC
+MULTIQC_OUT=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/MultiQC/test
 mkdir -p "$MULTIQC_OUT"
 
 # ------------------------------

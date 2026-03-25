@@ -33,7 +33,7 @@ VEP_EXEC=$CONDA_PREFIX/bin/vep
 
 # ------------------------------
 # Output directory for VEP annotations
-OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/VEP
+OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/VEP/test
 mkdir -p "$OUTDIR"
 
 # Cache directory for VEP
@@ -46,7 +46,7 @@ FASTA=$VEPCACHE/homo_sapiens/105_GRCh37/Homo_sapiens.GRCh37.75.dna.primary_assem
 SAMPLES=(SRR20074876 SRR20074878 SRR20074880 SRR20074882 SRR20074884 SRR20074886 SRR20074888 SRR20074890 SRR20074892)
 
 # Directory where your original VCFs live
-VCF_DIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/05_variantCalling/gatk
+VCF_DIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/05_variantCalling/gatk/test
 
 # ------------------------------
 # Loop through each sample

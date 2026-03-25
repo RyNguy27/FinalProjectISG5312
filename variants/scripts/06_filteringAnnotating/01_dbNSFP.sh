@@ -21,8 +21,8 @@ module load bcftools/1.16
 
 ANNOVAR=/scratch/rnguyen/resources/annovar
 HDB=/scratch/rnguyen/resources/annovar/humandb
-INDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/05_variantCalling/gatk
-OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/dbNSFP
+INDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/05_variantCalling/gatk/test
+OUTDIR=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/results/06_Annotate/dbNSFP/test
 mkdir -p ${OUTDIR}
 
 # Ensure ANNOVAR database symlinks
@@ -37,8 +37,6 @@ ln -sf ${HDB}/hg19_clinvar.txt.idx ${HDB}/hg19_clinvar_20210501.txt.idx
 ln -sf ${HDB}/hg19_ALL.sites.2015_08.txt ${HDB}/hg19_1000g2015aug_all.txt
 ln -sf ${HDB}/hg19_ALL.sites.2015_08.txt.idx ${HDB}/hg19_1000g2015aug_all.txt.idx
 
-ln -sf ${HDB}/hg19_gnomad211_exome.txt ${HDB}/gnomad211_exome.txt
-ln -sf ${HDB}/hg19_gnomad211_exome.txt.idx ${HDB}/gnomad211_exome.txt.idx
 
 for VCF in ${INDIR}/*.mutect2.vcf.gz
 do
@@ -65,8 +63,8 @@ do
         -buildver hg19 \
         -out ${OUTDIR}/${SAMPLE} \
         -remove \
-        -protocol refGene,dbnsfp30a,clinvar_20210501,Cosmic,1000g2015aug_all,esp6500siv2_all,gnomad211_exome \
-        -operation g,f,f,f,f,f,f \
+        -protocol refGene,dbnsfp30a,clinvar_20210501,Cosmic,1000g2015aug_all,esp6500siv2_all \
+        -operation g,f,f,f,f,f \
         -nastring . \
         -otherinfo
 
