@@ -39,7 +39,6 @@ TUMORS=(SRR20074876 SRR20074878 SRR20074880 SRR20074882 SRR20074884 SRR20074886 
 N=${NORMALS[$SLURM_ARRAY_TASK_ID]}
 T=${TUMORS[$SLURM_ARRAY_TASK_ID]}
 
-GNOMAD=/scratch/rnguyen/resources/annovar/humandb/gnomad.exomes.r2.1.1.sites.vcf.bgz
 
 # set a variable for the reference genome location
 GEN=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/genome/hs37d5.fa
@@ -47,7 +46,6 @@ GEN=/home/FCAM/rnguyen/ISG5312/finalprojectISG5312/variants/genome/hs37d5.fa
 # sanity check
 echo "Tumor BAM: $INDIR/$T.bam"
 echo "Normal BAM: $INDIR/$N.bam"
-echo "gnomAD: $GNOMAD"
 
 if [ ! -f ${INDIR}/${T}.bam ]; then
     echo "ERROR: Tumor BAM not found: ${INDIR}/${T}.bam"
@@ -68,7 +66,6 @@ gatk Mutect2 \
     -I ${INDIR}/${N}.bam \
     --tumor ${T} \
     --normal ${N} \
-    --germline-resource ${GNOMAD} \
     --max-reads-per-alignment-start 0 \
     --min-base-quality-score 0 \
     --tumor-lod-to-emit 0 \
