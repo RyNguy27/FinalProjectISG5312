@@ -78,8 +78,9 @@ FinalProjectISG5312/
 |  `-- 06_annotation/
 |     |-- MultiQC/
 |     |-- Rplots/
-|     |-- dbNSFP/
-|     `-- VEP/
+|     |-- VEP/
+|     |  |--lof_results/
+|     `-- dbNSFP/
 |-- scripts/
 |  |-- 01_downloadData/
 |  |-- 02_qc/
