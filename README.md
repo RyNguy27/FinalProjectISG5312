@@ -56,7 +56,7 @@ FinalProjectISG5312/
 | variants/
 |-- data/
 |  |--fastq
-|  |--resources
+|  `--resources
 |-- metadata/
 |-- genome/
 |-- results/
