@@ -30,20 +30,24 @@ Total number of samples: 18
 ### Step 4: Alignment QC
 - Samtools Stats with MultiQC
 - Coverage check QC
+- Plot Coverage 1kb Window Rstudio
 - Bedtoolsnuc QC
 
 ### Step 5: Variant Calling
 - Create Sequence Directory
 - Create VCF
- - GATK Mutect2 (tumor-normal mode)
+- GATK Mutect2 (tumor-normal mode)
+- GATK Mutect2 (tumor-only as comparison check)
 
 ### Step 6: Filtering & Annotating 
 - Filter variants based on quality metrics
 - Normalize Variants
 - Annotate using:
  - dbNSFP and COSMIC 
- - bcftoolsCSQ
- - SnpEff for summary 
+ - VEP for summary 
+- Make MAF File
+- MAke Oncoplot of top40 Genes
+
 
 ## Repository Structure
 ```
