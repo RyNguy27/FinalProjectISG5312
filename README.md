@@ -64,16 +64,18 @@ FinalProjectISG5312/
 |  |  |-- bwa_index/
 |  |  `-- bwa_align/
 |  |-- 04_alignQC/
-|  |  |-- samtools/
+|  |  |-- samstats/
 |  |  |-- coverage/
+|  |  |-- plots/
 |  |  `-- bedtoolsnuc/
 |  |-- 05_variantCalling/
 |  |  |-- gatk/
-|  |  `-- isec_output/
+|  |  `-- maf/
 |  `-- 06_annotation/
-|     |-- bcftoolsCSQ/
+|     |-- MultiQC/
+|     |-- Rplots/
 |     |-- dbNSFP/
-|     `-- snpEff/
+|     `-- VEP/
 |-- scripts/
 |  |-- 01_downloadData/
 |  |-- 02_qc/
