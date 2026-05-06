@@ -44,9 +44,10 @@ Total number of samples: 18
 - Normalize Variants
 - Annotate using:
  - dbNSFP and COSMIC 
- - VEP for summary 
+ - VEP for summary
+ - Summary of Damaging variants from VEP 
 - Make MAF File
-- MAke Oncoplot of top40 Genes
+- Make Oncoplot of top40 Genes
 
 
 ## Repository Structure
